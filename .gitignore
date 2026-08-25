@@ -1,0 +1,12 @@
+bin
+obj
+
+# Local Database & Cache
+Data/
+
+# Logs
+Logs/
+*.log
+
+# IDE Settings
+.vscode/

@@ -1,4 +1,4 @@
-namespace KeyMatch.Models
+namespace RagBm25HybridSearch.Models
 {
     public class LabelVectorModel
     {

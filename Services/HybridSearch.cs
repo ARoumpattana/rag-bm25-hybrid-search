@@ -1,7 +1,7 @@
 using drittich.ReciprocalRankFusion;
 using Microsoft.Extensions.Logging;
 
-namespace KeyMatch.Services
+namespace RagBm25HybridSearch.Services
 {
     public class HybridSearch
     {

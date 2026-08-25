@@ -1,4 +1,4 @@
-namespace KeyMatch.Interface
+namespace RagBm25HybridSearch.Interface
 {
     internal interface IAppService
     {

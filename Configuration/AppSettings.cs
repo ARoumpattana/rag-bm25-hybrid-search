@@ -1,4 +1,4 @@
-namespace KeyMatch.Configuration
+namespace RagBm25HybridSearch.Configuration
 {
     public class AppSettings
     {

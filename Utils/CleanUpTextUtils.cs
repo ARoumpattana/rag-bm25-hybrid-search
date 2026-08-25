@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace KeyMatch.Utils
+namespace RagBm25HybridSearch.Utils
 {
     public static class CleanUpTextUtils
     {

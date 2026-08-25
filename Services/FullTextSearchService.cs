@@ -1,5 +1,3 @@
-using KeyMatch.Configuration;
-using KeyMatch.Utils;
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Standard;
 using Lucene.Net.Documents;
@@ -10,11 +8,13 @@ using Lucene.Net.Search.Similarities;
 using Lucene.Net.Store;
 using Lucene.Net.Util;
 using Microsoft.Extensions.Logging;
+using RagBm25HybridSearch.Configuration;
+using RagBm25HybridSearch.Utils;
 using Document = Lucene.Net.Documents.Document;
 using LuceneDirectory = Lucene.Net.Store.Directory;
 using OpenMode = Lucene.Net.Index.OpenMode;
 
-namespace KeyMatch.Services
+namespace RagBm25HybridSearch.Services
 {
     public class FullTextSearchService
     {

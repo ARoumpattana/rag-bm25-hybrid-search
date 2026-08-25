@@ -1,14 +1,14 @@
 using System.Numerics.Tensors;
 using System.Text;
-using KeyMatch.Configuration;
-using KeyMatch.Models;
-using KeyMatch.Prompts;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using OllamaSharp;
 using OllamaSharp.Models;
+using RagBm25HybridSearch.Configuration;
+using RagBm25HybridSearch.Models;
+using RagBm25HybridSearch.Prompts;
 
-namespace KeyMatch.Services
+namespace RagBm25HybridSearch.Services
 {
     public class OllamaApiService
     {

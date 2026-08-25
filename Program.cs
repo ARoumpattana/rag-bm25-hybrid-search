@@ -1,6 +1,6 @@
-﻿using KeyMatch.Configuration;
-using KeyMatch.Interface;
-using KeyMatch.Services;
+﻿using RagBm25HybridSearch.Configuration;
+using RagBm25HybridSearch.Interface;
+using RagBm25HybridSearch.Services;
 using log4net.Config;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

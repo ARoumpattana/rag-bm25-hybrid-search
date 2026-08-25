@@ -1,4 +1,4 @@
-namespace KeyMatch.Prompts
+namespace RagBm25HybridSearch.Prompts
 {
     public static class ConfirmMatchPrompt
     {

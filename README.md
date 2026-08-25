@@ -75,7 +75,7 @@ If you need to dive back into the codebase, use this map to navigate the respons
     ├── appsettings.json          # Environment-agnostic portable configuration
     ├── appsettings.Development.json # Development overrides
     ├── log4net.config            # Logging rules and file rolling policies
-    └── keyMatch.csproj           # .NET 8 project file and NuGet dependencies
+    └── rag-bm25-hybrid-search.csproj # .NET 8 project file and NuGet dependencies
 
 ---
 

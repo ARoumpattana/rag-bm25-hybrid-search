@@ -1,9 +1,9 @@
-using KeyMatch.Configuration;
-using KeyMatch.Interface;
-using KeyMatch.Models;
 using Microsoft.Extensions.Logging;
+using RagBm25HybridSearch.Configuration;
+using RagBm25HybridSearch.Interface;
+using RagBm25HybridSearch.Models;
 
-namespace KeyMatch.Services
+namespace RagBm25HybridSearch.Services
 {
     internal class AppService : IAppService
     {
